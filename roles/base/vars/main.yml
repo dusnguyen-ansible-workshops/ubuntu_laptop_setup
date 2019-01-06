@@ -3,5 +3,4 @@
 base_packages:
   - name: jq
   - name: snapd
-  - name: terminator
   - name: vim
