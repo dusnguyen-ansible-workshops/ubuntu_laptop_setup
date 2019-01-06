@@ -3,3 +3,5 @@
 base_packages:
   - name: snapd
   - name: vim
+  - name: sl
+  - name: oneko
