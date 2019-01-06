@@ -1,0 +1,9 @@
+---
+
+- name: install snapd packages
+  become: true
+  command: "snap install {{ item.name }} {{item.install_options | default('--classic') }}"
+  with_items: "{{ snapd_packages }}"
+  ignore_errors: True
+  tags:
+    - snapd

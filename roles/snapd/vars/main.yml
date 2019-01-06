@@ -1,0 +1,4 @@
+---
+
+snapd_packages:
+  - name: keepassxc

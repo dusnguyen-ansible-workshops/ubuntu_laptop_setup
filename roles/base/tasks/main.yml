@@ -1,0 +1,10 @@
+---
+
+- name: install base packages
+  become: true
+  apt:
+    name: "{{ item.name }}"
+    state: latest
+  with_items: "{{ base_packages }}"
+  tags:
+    - base
