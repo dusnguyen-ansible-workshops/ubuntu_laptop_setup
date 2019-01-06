@@ -1,6 +1,5 @@
 ---
 
 base_packages:
-  - name: jq
   - name: snapd
   - name: vim

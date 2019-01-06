@@ -2,3 +2,4 @@
 
 snapd_packages:
   - name: keepassxc
+    install_options: --stable
