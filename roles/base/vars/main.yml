@@ -5,3 +5,4 @@ base_packages:
   - name: vim
   - name: sl
   - name: oneko
+  - name: curl
